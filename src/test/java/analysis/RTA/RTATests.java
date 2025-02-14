@@ -8,6 +8,7 @@ import junit.framework.TestCase;
  * For more information on basic Soot command-line arguments check this site:
  * https://github.com/Sable/soot/wiki/Introduction:-Soot-as-a-command-line-tool
 */
+
 public class RTATests {
 
 	@Test

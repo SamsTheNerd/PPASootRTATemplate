@@ -11,6 +11,11 @@ import soot.Transform;
 
 public class RTA {
 
+    /**
+     * Runs RTA analysis on a program from src/main/resources/programs
+     * @param programPath eg p1
+     * @param clsName main class name. eg A or Main
+     */
     public static void runRTA(String programPath, String clsName) {
 
         long startTime = System.currentTimeMillis();
@@ -33,6 +38,4 @@ public class RTA {
         System.out.println("INFO: Total running time: " + ((float)(endTime - startTime) / 1000) + " sec");
 
 	}
-	
-	
 }
